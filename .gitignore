@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables & secrets
+.env
+*.env
+!.env.example
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Testing & Coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+
+# Local Storage Uploads (keep directory structure with .gitkeep)
+server/storage_uploads/*
+!server/storage_uploads/.gitkeep
+storage_uploads/*
+!storage_uploads/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Excluded per user request
+DEPLOY.md
+*.pdf
+
+# Node & Next.js
+node_modules/
+.next/
+*.env.local
+
+# Video recordings (exceeds GitHub 100MB limit)
+Finalized_videos/
+*.mp4
+*.mov
+*.egg-info/
